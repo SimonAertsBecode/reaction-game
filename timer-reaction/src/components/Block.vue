@@ -43,10 +43,17 @@ export default {
 <style scoped>
 .block {
     width: 400px;
-    height: 250px;
-    background-color: rgba(255, 45, 0, 0.6);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 47, 0, 0.678);
     margin-left: 50%;
     margin-top: 50px;
     transform: translateX(-50%);
+    border-radius: 20px;
+    font-size: 2.5rem;
+    color: white;
 }
 </style>

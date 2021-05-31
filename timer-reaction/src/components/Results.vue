@@ -17,13 +17,13 @@ export default {
 
     mounted() {
         if (this.score <= 250) {
-            this.level = "You're fast as light ma boy";
+            this.level = "You're fast as light";
         } else if (this.score <= 400) {
             this.level = "fast but not insane";
         } else if (this.score <= 600) {
-            this.level = "Want some coffe ma dude?";
+            this.level = "Want some coffe?";
         } else {
-            this.level = "Go take a nap and come back";
+            this.level = "take a nap and come back";
         }
     },
 };
@@ -32,12 +32,28 @@ export default {
 <style scoped>
 .results {
     width: 40%;
-    height: 150px;
-    color: rgba(255, 45, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 146, 85, 0.6);
     background: #eee;
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 50px;
     border-radius: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+p:nth-child(2) {
+    font-style: italic;
 }
 </style>
