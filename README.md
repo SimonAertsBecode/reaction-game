@@ -1,9 +1,14 @@
 # Timer-reaction
 
---> keep track if player is playing
+### Steps
 
---> set random timer for block appearing
+-   Keep track if player is playing
 
---> life cycle hooks
+-   Set random timer for block appearing
 
---> custom events
+-   Life cycle hooks
+
+-   Custom events
+
+**Try it by yourself**
+by clicking [here](https://simonaertsbecode.github.io/Timer-reaction/).
